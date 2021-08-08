@@ -28,9 +28,9 @@
 		<typedef resource="net/sf/antcontrib/antlib.xml" classpathref="ant.contrib.classpath"/>
 
 
-  <!-- ====================================================================== -->
+  <!-- ======================================================================*** -->
   <!-- Build environment properties                                           -->
-  <!-- ====================================================================== -->
+  <!-- ======================================================================*** -->
    <property name="environment.type.default" value="dev"/>
   	<if>
   					 <equals arg1="${basesrcdir}" arg2="$${basesrcdir}"/>
